@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\aderevlany\\Documents\\Unreal Projects\\CGS_LevelUpU\\Source\\CGS_LevelUpU\\CGS_LevelUpU.Build.cs",
+		"C:\\Users\\aderevlany\\Documents\\Unreal Projects\\CGS_LevelUpU\\Source\\CGS_LevelUpU.Target.cs",
+		"C:\\Users\\aderevlany\\Documents\\Unreal Projects\\CGS_LevelUpU\\Source\\CGS_LevelUpUEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

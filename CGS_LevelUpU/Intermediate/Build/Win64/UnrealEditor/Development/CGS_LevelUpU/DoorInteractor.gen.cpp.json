@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\inc\\cgs_levelupu\\doorinteractor.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\cgs_levelupueditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\development\\cgs_levelupu\\definitions.cgs_levelupu.h",
+            "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\source\\cgs_levelupu\\public\\doorinteractor.h",
+            "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\inc\\cgs_levelupu\\doorinteractor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

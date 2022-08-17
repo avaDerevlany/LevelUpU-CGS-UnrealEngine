@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\source\\cgs_levelupu\\cgs_levelupugamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\cgs_levelupueditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\development\\cgs_levelupu\\definitions.cgs_levelupu.h",
+            "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\source\\cgs_levelupu\\cgs_levelupugamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\aderevlany\\documents\\unreal projects\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\inc\\cgs_levelupu\\cgs_levelupugamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

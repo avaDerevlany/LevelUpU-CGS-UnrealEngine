@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CGS_LevelUpU",
+			"Path": "C:\\Users\\aderevlany\\Documents\\Unreal Projects\\CGS_LevelUpU\\Source\\CGS_LevelUpU.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CGS_LevelUpUEditor",
+			"Path": "C:\\Users\\aderevlany\\Documents\\Unreal Projects\\CGS_LevelUpU\\Source\\CGS_LevelUpUEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
