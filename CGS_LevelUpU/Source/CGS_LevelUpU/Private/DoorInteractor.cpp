@@ -4,6 +4,7 @@
 #include "DoorInteractor.h"
 #include "Engine/TriggerBox.h"
 #include "Engine/World.h"
+#include "DoorKey.h"
 
 // Sets default values for this component's properties
 UDoorInteractor::UDoorInteractor()
@@ -32,6 +33,7 @@ void UDoorInteractor::BeginPlay()
 
 	openDoor = false;
 	closeDoor = false;
+
 }
 
 
@@ -42,22 +44,26 @@ void UDoorInteractor::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 	if (!openDoor && !closeDoor)
 	{
-		if (GetWorld()->GetFirstLocalPlayerFromController())
+		// if the door does not have a key, or the key is colected
+		if (doorKey == nullptr || (doorKey && doorKey->FindComponentByClass<UDoorKey>() && doorKey->FindComponentByClass<UDoorKey>()->IsKeyCollected()))
 		{
-			APawn* playerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
-			if (playerPawn && frontTrigger->IsOverlappingActor(playerPawn))
+			if (GetWorld()->GetFirstLocalPlayerFromController())
 			{
-				openDoor = true;
-				closeDoor = false;
-				finalRotation = desiredRotationFront;
+				APawn* playerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
+				if (playerPawn && frontTrigger && frontTrigger->IsOverlappingActor(playerPawn))
+				{
+					openDoor = true;
+					closeDoor = false;
+					finalRotation = desiredRotationFront;
+				}
+				else if (playerPawn && backTrigger && backTrigger->IsOverlappingActor(playerPawn))
+				{
+					openDoor = true;
+					closeDoor = false;
+					finalRotation = desiredRotationBack;
+				}
 			}
-			else if (playerPawn && backTrigger->IsOverlappingActor(playerPawn))
-			{
-				openDoor = true;
-				closeDoor = false;
-				finalRotation = desiredRotationBack;
-			}
-		}		
+		}
 	}
 
 	if (openDoor)
@@ -70,7 +76,7 @@ void UDoorInteractor::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 		else if (GetWorld()->GetFirstLocalPlayerFromController())
 		{
 			APawn* playerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
-			if (playerPawn && (!frontTrigger->IsOverlappingActor(playerPawn) && !backTrigger->IsOverlappingActor(playerPawn)))
+			if (playerPawn && frontTrigger && backTrigger && !frontTrigger->IsOverlappingActor(playerPawn) && !backTrigger->IsOverlappingActor(playerPawn))
 			{
 				openDoor = false;
 				closeDoor = true;

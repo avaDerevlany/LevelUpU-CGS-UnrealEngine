@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeDoorInteractor() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerBox_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FRuntimeFloatCurve();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void UDoorInteractor::StaticRegisterNativesUDoorInteractor()
 	{
@@ -51,6 +52,10 @@ void EmptyLinkFunctionForGeneratedCodeDoorInteractor() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_movementCurve_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_movementCurve;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_doorKey_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_doorKey;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -102,12 +107,20 @@ void EmptyLinkFunctionForGeneratedCodeDoorInteractor() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UDoorInteractor_Statics::NewProp_movementCurve = { "movementCurve", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDoorInteractor, movementCurve), Z_Construct_UScriptStruct_FRuntimeFloatCurve, METADATA_PARAMS(Z_Construct_UClass_UDoorInteractor_Statics::NewProp_movementCurve_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDoorInteractor_Statics::NewProp_movementCurve_MetaData)) }; // 1196190759
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDoorInteractor_Statics::NewProp_doorKey_MetaData[] = {
+		{ "Category", "DoorInteractor" },
+		{ "ModuleRelativePath", "Public/DoorInteractor.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDoorInteractor_Statics::NewProp_doorKey = { "doorKey", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDoorInteractor, doorKey), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDoorInteractor_Statics::NewProp_doorKey_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDoorInteractor_Statics::NewProp_doorKey_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDoorInteractor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorInteractor_Statics::NewProp_desiredRotation,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorInteractor_Statics::NewProp_timeToRotate,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorInteractor_Statics::NewProp_frontTrigger,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorInteractor_Statics::NewProp_backTrigger,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorInteractor_Statics::NewProp_movementCurve,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorInteractor_Statics::NewProp_doorKey,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UDoorInteractor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UDoorInteractor>::IsAbstract,
@@ -145,9 +158,9 @@ void EmptyLinkFunctionForGeneratedCodeDoorInteractor() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CGS_LevelUpU_Source_CGS_LevelUpU_Public_DoorInteractor_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UDoorInteractor, UDoorInteractor::StaticClass, TEXT("UDoorInteractor"), &Z_Registration_Info_UClass_UDoorInteractor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDoorInteractor), 1157610059U) },
+		{ Z_Construct_UClass_UDoorInteractor, UDoorInteractor::StaticClass, TEXT("UDoorInteractor"), &Z_Registration_Info_UClass_UDoorInteractor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDoorInteractor), 2052436567U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CGS_LevelUpU_Source_CGS_LevelUpU_Public_DoorInteractor_h_772595373(TEXT("/Script/CGS_LevelUpU"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CGS_LevelUpU_Source_CGS_LevelUpU_Public_DoorInteractor_h_2895014186(TEXT("/Script/CGS_LevelUpU"),
 		Z_CompiledInDeferFile_FID_CGS_LevelUpU_Source_CGS_LevelUpU_Public_DoorInteractor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CGS_LevelUpU_Source_CGS_LevelUpU_Public_DoorInteractor_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -23,6 +23,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Config\HoloLens">
       <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
     </Filter>
@@ -50,19 +53,43 @@
     <Filter Include="Source\CGS_LevelUpU\Private">
       <UniqueIdentifier>{3F54B2CD-1AEE-3F20-9A2A-7069EF87D27C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DistantTriggerDoor.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DoorInteractor.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DoorKey.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DownSlidingDoorComponent.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\InteractableDoorActor.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\SideSliddingDoor.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\CGS_LevelUpU\Public">
       <UniqueIdentifier>{EBB1F4C2-FB72-30A0-AA5F-2AB760BAEA5B}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DistantTriggerDoor.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DoorInteractor.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DoorKey.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DownSlidingDoorComponent.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\InteractableDoorActor.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\SideSliddingDoor.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
   </ItemGroup>

@@ -45,6 +45,9 @@ protected:
 	UPROPERTY(EditAnywhere)
 		FRuntimeFloatCurve movementCurve;
 
+	UPROPERTY(EditAnywhere)
+		AActor* doorKey;
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

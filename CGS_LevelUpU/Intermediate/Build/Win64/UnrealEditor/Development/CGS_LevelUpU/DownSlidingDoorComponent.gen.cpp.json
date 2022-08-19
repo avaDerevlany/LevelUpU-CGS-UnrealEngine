@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\aderevlany\\documents\\github\\levelupu-unrealengine\\levelupu-cgs-unrealengine\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\inc\\cgs_levelupu\\downslidingdoorcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\aderevlany\\documents\\github\\levelupu-unrealengine\\levelupu-cgs-unrealengine\\cgs_levelupu\\intermediate\\build\\win64\\cgs_levelupueditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\aderevlany\\documents\\github\\levelupu-unrealengine\\levelupu-cgs-unrealengine\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\development\\cgs_levelupu\\definitions.cgs_levelupu.h",
+            "c:\\users\\aderevlany\\documents\\github\\levelupu-unrealengine\\levelupu-cgs-unrealengine\\cgs_levelupu\\source\\cgs_levelupu\\public\\downslidingdoorcomponent.h",
+            "c:\\users\\aderevlany\\documents\\github\\levelupu-unrealengine\\levelupu-cgs-unrealengine\\cgs_levelupu\\intermediate\\build\\win64\\unrealeditor\\inc\\cgs_levelupu\\downslidingdoorcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
