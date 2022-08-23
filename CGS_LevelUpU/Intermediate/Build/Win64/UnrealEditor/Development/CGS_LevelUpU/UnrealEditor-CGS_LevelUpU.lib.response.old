@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DistantTriggerDoor.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DoorInteractor.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DoorKey.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DownSlidingDoorComponent.cpp.obj"
@@ -16,6 +17,7 @@
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpUGameModeBase.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpU.init.gen.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpUGameModeBase.gen.cpp.obj"
+"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DistantTriggerDoor.gen.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DoorInteractor.gen.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DoorKey.gen.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\DownSlidingDoorComponent.gen.cpp.obj"
