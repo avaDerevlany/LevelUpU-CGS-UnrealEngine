@@ -40,6 +40,8 @@ protected:
 
 	FTimerHandle restartLevelTimerHandle;
 
+	bool deathPause;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

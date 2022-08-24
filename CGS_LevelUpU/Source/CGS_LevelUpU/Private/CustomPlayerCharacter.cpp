@@ -11,6 +11,7 @@ ACustomPlayerCharacter::ACustomPlayerCharacter()
 
 	health = 10.0f;
 
+	deathPause = false;
 }
 
 // Called when the game starts or when spawned
@@ -25,7 +26,7 @@ void ACustomPlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (!IsAlive())
+	if (!deathPause && !IsAlive())
 	{
 		OnDeath(false);
 	}
@@ -62,6 +63,7 @@ void ACustomPlayerCharacter::OnDeath(bool isFallout)
 		playerController->DisableInput(playerController);
 	}
 
+	deathPause = true;
 	GetWorld()->GetTimerManager().SetTimer(restartLevelTimerHandle, this, &ACustomPlayerCharacter::OnDeathTimerFinished, timeRestartLevelAfterDeath, false);
 }
 
@@ -71,5 +73,6 @@ void ACustomPlayerCharacter::OnDeathTimerFinished()
 	if (playerController)
 	{
 		playerController->RestartLevel();
+		deathPause = false;
 	}
 }
