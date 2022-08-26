@@ -22,6 +22,7 @@ void UDistantTriggerDoor::BeginPlay()
 	Super::BeginPlay();
 
 	startRotation = GetOwner()->GetActorRotation();
+	finalRotation = GetOwner()->GetActorRotation() + desiredRotation;;
 	openDoor = false;
 	currentRotationTime = 0.0f;
 	

@@ -39,8 +39,8 @@ void ACameraTriggerBox::OnOverlapBegin(class AActor* OverlappedActor, class AAct
     if (OtherActor && (OtherActor != this))
     {
         // print to screen using above defined method when actor enters trigger box
-        print("Overlap Begin");
-        printFString("Overlapped Actor = %s", *OverlappedActor->GetName());
+        //print("Overlap Begin");
+        //printFString("Overlapped Actor = %s", *OverlappedActor->GetName());
 
         triggerAttractor = true;
         player = Cast<ACustomPlayerCharacter>(OtherActor);
@@ -53,8 +53,8 @@ void ACameraTriggerBox::OnOverlapEnd(class AActor* OverlappedActor, class AActor
     if (OtherActor && (OtherActor != this))
     {
         // print to screen using above defined method when actor leaves trigger box
-        print("Overlap Ended");
-        printFString("%s has left the Trigger Box", *OtherActor->GetName());
+        //print("Overlap Ended");
+        //printFString("%s has left the Trigger Box", *OtherActor->GetName());
 
         // return player character to normal 3rd person
         triggerAttractor = false;
@@ -64,7 +64,7 @@ void ACameraTriggerBox::OnOverlapEnd(class AActor* OverlappedActor, class AActor
 
 void ACameraTriggerBox::UpdateAttractorRotation(bool setAttractor)
 {
-    print("UpdateAttractorRotation");
+    //print("UpdateAttractorRotation");
     if (setAttractor)
     {
         // set player character to look at attractor
@@ -85,7 +85,7 @@ void ACameraTriggerBox::UpdateAttractorRotation(bool setAttractor)
                     springArm->bUsePawnControlRotation = 0;
                 }
 
-                    printFString("rotation %f", lookAtRotation.Pitch);
+                    //printFString("rotation %f", lookAtRotation.Pitch);
             }
         }
     }
