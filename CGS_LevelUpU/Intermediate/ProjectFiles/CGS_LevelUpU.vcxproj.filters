@@ -62,9 +62,6 @@
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CameraTriggerBox.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CelebrateTrigger.cpp">
-      <Filter>Source\CGS_LevelUpU\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CustomPlayerCharacter.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
@@ -78,6 +75,12 @@
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DownSlidingDoorComponent.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\EventTriggerBox.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\EventTriggeredDoor.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\InteractableDoorActor.cpp">
@@ -101,9 +104,6 @@
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CameraTriggerBox.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CelebrateTrigger.h">
-      <Filter>Source\CGS_LevelUpU\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CustomPlayerCharacter.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
@@ -117,6 +117,12 @@
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DownSlidingDoorComponent.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\EventTriggerBox.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\EventTriggeredDoor.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\InteractableDoorActor.h">

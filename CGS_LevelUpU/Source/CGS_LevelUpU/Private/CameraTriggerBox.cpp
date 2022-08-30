@@ -19,6 +19,8 @@ ACameraTriggerBox::ACameraTriggerBox()
 
 void ACameraTriggerBox::BeginPlay()
 {
+    Super::BeginPlay();
+
     //DrawDebugBox(GetWorld(), GetActorLocation(), GetComponentsBoundingBox().GetExtent(), FColor::Purple, true, -1, 0, 5);
 
     triggerAttractor = false;
@@ -27,6 +29,8 @@ void ACameraTriggerBox::BeginPlay()
 
 void ACameraTriggerBox::Tick(float DeltaTime)
 {
+    Super::Tick(DeltaTime);
+
     if (triggerAttractor)
     {
         UpdateAttractorRotation(true);

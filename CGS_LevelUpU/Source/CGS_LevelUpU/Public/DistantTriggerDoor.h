@@ -31,13 +31,13 @@ public:
 	UPROPERTY(EditAnywhere)
 		ATriggerBox* trigger;
 
-	void OpenDoor(float DeltaTime);
-
 	bool openDoor;
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+
+	void OpenDoor(float DeltaTime);
 
 public:	
 	// Called every frame
