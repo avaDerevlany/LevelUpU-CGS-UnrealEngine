@@ -53,16 +53,13 @@
     <Filter Include="Source\CGS_LevelUpU\Private">
       <UniqueIdentifier>{3F54B2CD-1AEE-3F20-9A2A-7069EF87D27C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CameraFocusTrigger.cpp">
-      <Filter>Source\CGS_LevelUpU\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CameraManipulations.cpp">
-      <Filter>Source\CGS_LevelUpU\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CameraTriggerBox.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\CustomPlayerCharacter.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DataTableExample.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\DistantTriggerDoor.cpp">
@@ -83,7 +80,13 @@
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\EventTriggeredDoor.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\InteractableButton.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\InteractableDoorActor.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\InteractInterface.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\SideSliddingDoor.cpp">
@@ -95,16 +98,13 @@
     <Filter Include="Source\CGS_LevelUpU\Public">
       <UniqueIdentifier>{EBB1F4C2-FB72-30A0-AA5F-2AB760BAEA5B}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CameraFocusTrigger.h">
-      <Filter>Source\CGS_LevelUpU\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CameraManipulations.h">
-      <Filter>Source\CGS_LevelUpU\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CameraTriggerBox.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\CustomPlayerCharacter.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DataTableExample.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\DistantTriggerDoor.h">
@@ -125,7 +125,13 @@
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\EventTriggeredDoor.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\InteractableButton.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\InteractableDoorActor.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\InteractInterface.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\SideSliddingDoor.h">

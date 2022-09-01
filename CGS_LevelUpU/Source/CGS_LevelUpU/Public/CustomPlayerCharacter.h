@@ -53,8 +53,8 @@ protected:
 
 	bool deathPause;
 
-	UPROPERTY(VisibleAnywhere, ReplicatedUsing = OnRep_CharacterThrowState, Category = "Throw")
-		ECharacterThrowState CharacterThrowState = ECharacterThrowState::None;
+	/*UPROPERTY(VisibleAnywhere, ReplicatedUsing = OnRep_CharacterThrowState, Category = "Throw")
+		ECharacterThrowState CharacterThrowState = ECharacterThrowState::None;*/
 
 public:	
 	// Called every frame
