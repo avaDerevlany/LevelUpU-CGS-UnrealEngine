@@ -89,10 +89,16 @@
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\InteractInterface.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\PlayerInteractionZone.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\SideSliddingDoor.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\SwitchCamersTriggerBox.cpp">
+      <Filter>Source\CGS_LevelUpU\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CGS_LevelUpU\Private\ThrowableActor.cpp">
       <Filter>Source\CGS_LevelUpU\Private</Filter>
     </ClCompile>
     <Filter Include="Source\CGS_LevelUpU\Public">
@@ -134,10 +140,16 @@
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\InteractInterface.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\PlayerInteractionZone.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\SideSliddingDoor.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\SwitchCamersTriggerBox.h">
+      <Filter>Source\CGS_LevelUpU\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CGS_LevelUpU\Public\ThrowableActor.h">
       <Filter>Source\CGS_LevelUpU\Public</Filter>
     </ClInclude>
   </ItemGroup>

@@ -4,13 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ThrowableActor.h"
 #include "CustomPlayerCharacter.generated.h"
 
 UENUM(BlueprintType)
 enum class ECharacterThrowState : uint8
 {
 	None			UMETA(DisplayName = "None"),
-	/*RequestingPull	UMETA(DisplayName = "RequestingPull"),*/
+	//RequestingPull	UMETA(DisplayName = "RequestingPull"),
 	Pulling			UMETA(DisplayName = "Pulling"),
 	Attached		UMETA(DisplayName = "Attached"),
 	Throwing		UMETA(DisplayName = "Throwing"),
@@ -35,6 +36,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void TakeDamage(float amount);
 
+	UFUNCTION(BlueprintCallable)
+	void TryToInteract();
+
+	void OnThrowableAttached(AThrowableActor* InThrowableActor);
+	void ResetThrowableObject();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -53,8 +60,17 @@ protected:
 
 	bool deathPause;
 
-	/*UPROPERTY(VisibleAnywhere, ReplicatedUsing = OnRep_CharacterThrowState, Category = "Throw")
-		ECharacterThrowState CharacterThrowState = ECharacterThrowState::None;*/
+	void SphereCastPlayerView();
+	void ProcessTraceResult(const FHitResult& HitResult, bool bHighlight = true);
+
+	UPROPERTY(VisibleAnywhere, Category = "Throw")
+	ECharacterThrowState CharacterThrowState = ECharacterThrowState::None;
+
+	UPROPERTY()
+	AThrowableActor* ThrowableActor;
+
+	UPROPERTY(EditAnywhere, Category = "Throw", meta = (ClampMin = "0.0", Unit = "ms"))
+	float ThrowSpeed = 2000.0f;
 
 public:	
 	// Called every frame
