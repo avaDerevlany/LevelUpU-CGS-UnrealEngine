@@ -72,6 +72,7 @@
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\ThrowableActor.gen.cpp.obj"
 "C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\Default.rc2.res"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\AIModule\UnrealEditor-AIModule.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"

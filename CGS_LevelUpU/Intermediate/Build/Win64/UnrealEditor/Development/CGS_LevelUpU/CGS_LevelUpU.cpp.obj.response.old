@@ -1,6 +1,6 @@
-"C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Source\CGS_LevelUpU\CGS_LevelUpU.cpp"
+C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Source\CGS_LevelUpU\CGS_LevelUpU.cpp
 /I .
-/I "C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Source\CGS_LevelUpU\Private"
+/I C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Source\CGS_LevelUpU\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
 /I ..\Shaders\Shared
@@ -252,9 +252,9 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I "C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Inc\CGS_LevelUpU"
-/I "C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Source"
-/I "C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Source\CGS_LevelUpU\Public"
+/I C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Inc\CGS_LevelUpU
+/I C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Source
+/I C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Source\CGS_LevelUpU\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -275,12 +275,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\Definitions.CGS_LevelUpU.h"
-/Yu"C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpU.cpp.obj"
-/sourceDependencies "C:\Users\aderevlany\Documents\Unreal Projects\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpU.cpp.json"
+/FI"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\Definitions.CGS_LevelUpU.h"
+/Yu"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\CGS_LevelUpUEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpU.cpp.obj"
+/sourceDependencies C:\Users\aderevlany\Documents\GitHub\LevelUpU-UnrealEngine\LevelUpU-CGS-UnrealEngine\CGS_LevelUpU\Intermediate\Build\Win64\UnrealEditor\Development\CGS_LevelUpU\CGS_LevelUpU.cpp.json
 /Zc:inline
 /nologo
 /Oi

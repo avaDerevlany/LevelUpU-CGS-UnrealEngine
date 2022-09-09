@@ -64,14 +64,15 @@ void AThrowableActor::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPri
 		}*/
 
 		// hit someone
-		/*AActor* CurrentOwner = GetOwner();
+		AActor* CurrentOwner = GetOwner();
 		if (CurrentOwner && CurrentOwner != Other)
 		{
 			if (ACustomPlayerCharacter* character = Cast<ACustomPlayerCharacter>(Other))
 			{
-				character->NotifyHitByThrowable(this);
+				print("Player hit!");
+				character->TakeDamage(5);
 			}
-		}*/
+		}
 	}
 	
 	if (PullActor && State == EState::Pull )

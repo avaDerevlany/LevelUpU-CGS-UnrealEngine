@@ -33,11 +33,12 @@ void ACustomPlayerCharacter::Tick(float DeltaTime)
 
 	if (!deathPause && !IsAlive())
 	{
-		OnDeath(false);
+		if (isPlayer) OnDeath(false);
+		else RemoveCharacter();
 	}
 	else if (!ThrowableActor)
 	{
-		SphereCastPlayerView();
+		if (isPlayer) SphereCastPlayerView();
 	}
 	
 }
@@ -63,10 +64,16 @@ const float ACustomPlayerCharacter::GetCurrentHealth() const
 void ACustomPlayerCharacter::TakeDamage(float amount)
 {
 	health -= amount;
+
+	// set hitReact on animator
+	// set DangerCube in levelBlueprint to take damage instead of calling anim stuff
+	//UAnimInstance* animInstance = GetMesh()->GetAnimInstance();
 }
 
 void ACustomPlayerCharacter::OnDeath(bool isFallout)
 {
+	// set isAlive = false on animator
+
 	APlayerController* playerController = GetController<APlayerController>();
 	if (playerController)
 	{
@@ -75,6 +82,11 @@ void ACustomPlayerCharacter::OnDeath(bool isFallout)
 
 	deathPause = true;
 	GetWorld()->GetTimerManager().SetTimer(restartLevelTimerHandle, this, &ACustomPlayerCharacter::OnDeathTimerFinished, timeRestartLevelAfterDeath, false);
+}
+
+void ACustomPlayerCharacter::RemoveCharacter()
+{
+	this->Destroy();
 }
 
 void ACustomPlayerCharacter::OnDeathTimerFinished()

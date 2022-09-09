@@ -27,6 +27,9 @@ public:
 	// Sets default values for this character's properties
 	ACustomPlayerCharacter();
 
+	UPROPERTY(EditAnywhere)
+	bool isPlayer = false;
+
 	UFUNCTION(BlueprintCallable)
 		const bool IsAlive() const;
 
@@ -46,9 +49,11 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY()
 	float health;
 
 	void OnDeath(bool isFallout);
+	void RemoveCharacter();
 
 	UFUNCTION()
 	void OnDeathTimerFinished();
